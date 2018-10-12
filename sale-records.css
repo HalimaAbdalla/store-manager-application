@@ -1,0 +1,112 @@
+body{
+    font-family: tahoma;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.container{
+          background-image: url(../images/54.jpg);
+          width: 100%;
+          height: 100vh;
+          background-color:#e3e3e3;
+          background-size: cover;
+          padding-bottom: 3%;
+}
+
+
+ul{
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+        margin: 0;
+        padding: 0;
+
+}
+
+li a{
+    list-style-type: none;
+    text-decoration: none;
+    color: white; 
+}
+
+.nav{
+    float: right;
+    margin-top:2%;
+    margin-right:2%;
+
+}
+li{
+    display: inline;
+    margin:10px;
+ 
+}
+
+.navbar{
+    background-color:#2c3e50;
+    width: 100%;
+    height:15%;
+    position: fixed;
+  
+}
+
+.copyright-image{
+        margin-left: 30%;
+}
+.sale-records{
+    margin-top:12%;
+}
+.table{
+    background-color:black;
+    width:80%;
+    font-family: tahoma;
+    border-collapse: collapse;
+    margin-left: 10%;
+    font-size: 14px;
+    opacity: .9;
+}
+th{font-size: 16px;}
+.table td, .table th{
+   border: 1px solid #ddd;
+   padding:10px;
+   color: white;
+}
+.table tr:nth-child(even)
+{background-color:black;
+color: white;
+}
+.table tr:hover{
+    background-color: rgb(95, 93, 93);
+    color: black;
+}
+
+.table th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: black;
+    color:white;
+}
+
+@media(max-width:280px){
+    .table{
+        width: 50%;
+    }
+
+}
+.records{
+    color: white;
+    text-decoration-line: none;
+}
+.button{
+    width:30%;
+    height: 5vh;
+    margin-left:36%;
+    margin-top:1%;
+    background-color: black;
+    border:2px solid pink;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: tahoma;
+}
